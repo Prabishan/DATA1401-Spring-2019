@@ -40,7 +40,8 @@ class matrix:
         return mat  
     #Slicing
     def shape(self,M):
-        return tuple(M)
+        
+        return len(M),len(M[0])
     
     def row(self,M,n):
         if(n>len(M)):
